@@ -1,5 +1,5 @@
 src/app/Config/database.php
 
-src/app/tmp/*.log
+src/app/tmp/error.log
 
 src/app/tmp/*.php
