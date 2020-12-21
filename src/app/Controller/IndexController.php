@@ -39,7 +39,7 @@ class IndexController  extends AppController {
 		$params['portray'] = $this->Articles->getArticlesList(19, 1, 5, 'pubdate');
 		$params['jiutan'] = $this->Articles->getArticlesList(18, 1, 2, 'pubdate');
 		$params['xfgc'] = $this->Articles->getArticlesList(17, 1, 4, 'pubdate');
-		$params['shou'] = $this->Articles->getArticlesList(24, 1, 1, 'pubdate');
+
 		
 		$params['tuijian'] = $this->Tuijian->getArticlesList(1, 20, 'pubdate');
 		$params['adlist'] = $this->Ad->getArticlesList(1, 4, 'pubdate');
@@ -47,7 +47,6 @@ class IndexController  extends AppController {
 		
 		$params['cates'] = $this->Category->getIndexIdList();
 
-		$params['shou'] = $params['shou'][0];
 		$params['back_url'] = false;
 		$params['is_index'] = true;
 		empty($params['shou']['pic_01'])?0:$params['shou']['pics'][] = $params['shou']['pic_01'];
