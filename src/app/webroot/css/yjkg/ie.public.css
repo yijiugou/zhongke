@@ -1,0 +1,6 @@
+.menu_item{float: right;}
+.menu_secord{background: #000;filter: alpha(opacity=50);}
+.ms_wrap_item{display: block;float: left;}
+.imc_split{float: left;}
+.imc_text{line-height: 30px;}
+.footer{clear: both;}

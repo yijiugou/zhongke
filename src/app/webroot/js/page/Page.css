@@ -1,0 +1,13 @@
+.page {height: 80px;font-size: 12px;font-family: "microsoft yahei";}
+.page_wrapper {top: 0;text-align: right;}
+.prenex {background-color: #009688;border-color: #009688!important;}
+.prenex span{color: #fff;}
+.page_container {display: inline;}
+ul.page_container li {display: inline-block;width: 60px;text-align: center;height: 26px;border: 1px #ccc solid;line-height: 26px;margin-right: 5px;color: #5f5858;cursor: pointer;}
+.total{width: 80px!important;cursor: default;border: none !important;cursor: default !important;}
+.page_number:hover,.page_prev:hover,.page_next:hover{color: #009688;border-color: #009688!important;}
+.page_number {width: 40px !important;}
+li.page_number.active {background-color: #009688;color: #fff;border-color: #009688;}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {-webkit-appearance: none;}
+input[type="number"]{-moz-appearance: textfield;}

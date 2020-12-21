@@ -1,0 +1,325 @@
+/**
+* 新闻资讯样式
+*/
+
+.news_main {
+    min-width: 1200px;
+    padding-bottom: 158px;
+}
+
+.news_main img {
+    width: 100%;
+}
+
+.news_mian_content {
+    width: 1200px;
+    min-width: 1200px;
+    margin: 0 auto;
+    margin-top: 68px;
+    display: flex;
+}
+
+.news_title {
+    width: 274px;
+    margin: 0 auto;
+    margin-top: 22px;
+    display: flex;
+    display: none;
+}
+
+.news_mark_left,
+.news_mark,
+.news_mark_right {
+    height: 47px;
+}
+
+.news_mark_left,
+.news_mark_right {
+    width: 29px;
+}
+
+.news_mark {
+    width: 144px;
+    font-size: 36px;
+    color: #555555;
+}
+
+.news_mark_left {
+    margin-right: 36px;
+}
+
+.news_mark_right {
+    margin-left: 36px;
+}
+
+.line {
+    height: 1px;
+    background: #555555;
+    margin-top: 23px;
+}
+
+.news_tab {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.news_tab_item {
+    width: 33.333333%;
+    text-align: center;
+    font-size: 24px;
+}
+
+.news_tab_item span {
+    padding: 4px 24px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.news_tab_item span.active {
+    background: #90272A;
+    color: #fff;
+}
+
+.news_dsj {
+    width: 100%;
+    margin-top: 40px;
+    display: none;
+}
+
+.news_dsj.active {
+    display: block;
+}
+
+.news_dsj_con {
+    width: 1200px;
+    margin: 0 auto;
+    min-width: 1200px;
+}
+
+
+/**
+* 通知公告板块
+*/
+
+.noticeItem {
+    display: flex;
+    margin-top: 20px;
+}
+
+.noticeItem_left {
+    margin-right: 12px;
+}
+
+.noticeItem_day,
+.noticeItem_tit {
+    height: 45px;
+}
+
+.noticeItem_day {
+    font-size: 36px;
+    color: #1A1A1A;
+    text-align: center;
+}
+
+.noticeItem_year {
+    font-size: 14px;
+    color: #1A1A1A;
+    line-height: 24px;
+    width: 60px;
+}
+
+.noticeItem_tit {
+    font-size: 18px;
+    color: #1A1A1A;
+    line-height: 35px;
+}
+
+.noticeItem_con {
+    font-size: 14px;
+    color: #888888;
+    line-height: 24px;
+    height: 72px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.notice_a {
+    color: #90272A;
+}
+
+
+/**
+* 行业资讯板块
+*/
+
+.qywh {
+    width: 1200px;
+    display: flex;
+    margin-top: 16px;
+    background: #F7F7F7;
+    padding: 5px 0 8px 5px;
+}
+
+.qywh_img,
+.nextCont {
+    width: 270px;
+    height: 180px;
+}
+
+.qywh_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.qywh_text {
+    width: 910px;
+    margin-left: 20px;
+}
+
+.titBig {
+    font-size: 18px;
+    color: #1A1A1A;
+}
+
+.titMall {
+    display: flex;
+}
+
+.titMall_con {
+    width: 760px;
+    font-size: 14px;
+    color: #888888;
+    line-height: 24px;
+    height: 96px;
+    margin-top: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.titMall_time {
+    height: 95px;
+    font-size: 72px;
+    color: #1A1A1A;
+    margin-left: 50px;
+    height: 95px;
+    border-bottom: 1px solid;
+}
+
+.titMall_mon {
+    height: 20px;
+    line-height: 20px;
+    width: 897px;
+    text-align: right;
+    font-size: 22px;
+    color: #1A1A1A;
+}
+
+.titBtn {
+    background: #90272A;
+    height: 28px;
+    line-height: 28px;
+    width: 95px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.titBtn a {
+    color: #fff;
+}
+
+
+/**
+* 公司动态板块
+*/
+
+.hyzxItem {
+    margin-top: 30px;
+}
+
+.hyzxItem,
+.hyzxLeft,
+.hyzxRight {
+    display: flex;
+    height: 180px;
+}
+
+.hyzxLeft,
+.hyzxRight {
+    width: 600px;
+}
+
+.hyzxImg {
+    width: 270px;
+}
+
+.ht_txtWrap {
+    margin-left: 15px;
+}
+
+.ht_titBig {
+    font-size: 18px;
+    color: #1A1A1A;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 300px;
+}
+
+.ht_titMall {
+    display: flex;
+}
+
+.ht_titMall_con {
+    width: 310px;
+    font-size: 14px;
+    color: #888888;
+    line-height: 24px;
+    height: 124px;
+    margin-top: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.ht_titBtn {
+    height: 20px;
+    line-height: 20px;
+    width: 85px;
+    cursor: pointer;
+}
+
+.ht_titBtn a {
+    font-size: 14px;
+    color: #90272A;
+}
+
+.layui-laypage a,
+.layui-laypage span {
+    padding: 0px 30px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.titBtn:hover {
+    opacity: 0.5;
+}
+
+.moreNews {
+    width: 1200px;
+    min-width: 1200px;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+    background-color: #015198;
+    padding: 8px 0;
+    display: none;
+}
+
+.jaxGetMore {
+    color: #fff;
+    display: inline-block;
+    cursor: pointer;
+}

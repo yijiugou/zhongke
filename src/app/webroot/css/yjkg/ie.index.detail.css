@@ -1,0 +1,13 @@
+.news_tab_item{width: 400px;float: left;}
+.news_dsj{margin-top: 160px;}
+.qywh{clear: both;height: 180px;}
+.qywh_img,.qywh_text{float: left;height: 180px;}
+.titMall_con,.titMall_time,.noticeItem_left,.noticeItem_right{float: left;}
+.titBtn,.titMall_mon{clear: both;}
+.pagenation,.noticeItem{clear: both;}
+.titMall_mon{width: 881px;}
+.hyzxLeft,.hyzxRight,.hyzxText,.hyzxImg{float: left;height: 180px;}
+.news_main img{height: 100%;}
+.noticeItem_left{width: 50px;}
+.noticeItem_right{width: 1135px;}
+.nextMark{margin-right: 20px;float: left;}

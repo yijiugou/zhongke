@@ -1,0 +1,275 @@
+.con *{
+    box-sizing: border-box;
+
+}
+.con {
+
+}
+.con img{
+    width: 100%;
+}
+.con .titles{
+    font-size: 36px;
+    color: #555555;
+    letter-spacing: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1172px;
+    margin: 37px auto 62px;
+    /*padding-right: 55px;*/
+    display: none;
+}
+.con .titles hr{
+    width: 29px;
+    height: 1px;
+    background-color:#555555;
+}
+.con .titles span{
+    margin: 0 36px;
+}
+
+.con .nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #555555;
+    letter-spacing: 0;
+    width: 1172px;
+    margin: 40px auto;
+    padding: 0 70px;
+    /*margin-top: 60px;*/
+}
+.con .nav span{
+    display: inline-block;
+    height: 37px;
+    /*width: 126px;*/
+    line-height: 37px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 24px;
+    /*ceshi*/
+    width:12%;
+}.con .nav span.zj{
+    margin: 0 325px;
+ }
+.con .nav span.selected{
+    background-color: #90272A;
+    border-radius: 100px;
+    color: #ffffff;
+}
+.con .nav-con{
+    width: 1172px;
+    margin: 0 auto;
+}
+.nav-con .concept-con .concept-title{
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+    color: #90272A;
+    letter-spacing: 0;
+    margin-bottom: 79px;
+    padding: 0 10px;
+}
+.nav-con .concept-con .concept-title > *{
+    float: left;
+}
+.nav-con .concept-con .concept-title hr{
+    margin: 39px 10px 0px;
+}
+.nav-con .concept-con .concept-title .title-con{
+    margin-top: 16px;
+}
+.concept-title .sp-title{
+    display: inline-block;
+    width: 234px;
+    height: 76px;
+    line-height: 76px;
+    font-size: 58px;
+}
+.concept-title hr{
+    width: 69px;
+    height: 1px;
+    margin: 0 1px;
+    border: 1px #90272A solid;
+}
+.concept-title .title-con{
+    display: inline-block;
+    width: 826px;
+    font-size: 18px;
+}
+.nav-con .concept-con .concept-list-con{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    clear: both;
+}
+.concept-list-con .concept-list{
+    width: 586px;
+    height:205px;
+    padding: 22px 32px 0 22px;
+    overflow: auto;
+    float: left;
+}
+.concept-list-con .concept-list.t0{
+    border-bottom:1px solid #676767;
+    border-right:1px solid #676767;
+}
+.concept-list-con .concept-list.t1{
+    border-bottom:1px solid #676767;
+}
+.concept-list-con .concept-list.t2{
+    border-right:1px solid #676767;
+}
+.concept-list-con .concept-list p{
+    font-size: 24px;
+    color: #90272A;
+    letter-spacing: 0;
+    line-height: 31px;
+    margin-bottom: 4px;
+}
+.concept-list-con .concept-list span{
+    font-size: 18px;
+    color: #1A1A1A;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+/*社招*/
+.nav-con .social-con{
+    width: 1175px;
+    margin: 0 auto;
+}
+
+.nav-con .social-con li{
+    font-size: 14px;
+    color: #1A1A1A;
+    letter-spacing: 0;
+    min-height: 49px;
+    border-bottom:1px solid #DDDDDE;
+    width: 100%;
+    list-style-type: none;
+    line-height: 24px;
+
+}
+.nav-con .social-con li .p .dot{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform:translateY(-50%);
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background-color:#1A1A1A;
+}
+.nav-con .social-con li .p img{
+    position: absolute;
+    width: 21px;
+    top:50%;
+    transform:translateY(-50%);
+    right: 0px;
+}
+.nav-con .social-con li .p{
+    padding-left: 12px;
+    position: relative;
+    cursor: pointer;
+    max-width: 1176px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 49px;
+}
+.nav-con .social-con li:first-child{
+    border-top:1px solid #DDDDDE;
+}
+.nav-con .social-con li .job-con{
+    background-color: #F5F5F5;
+    padding:20px 24px 32px ;
+    display: none;
+}
+.nav-con .social-con li.current .job-con{
+    display: block;
+    color: #61687C!important;
+}
+.nav-con .social-con li.current .job-con .job-detail{
+    word-break: break-all;
+}
+/*.nav-con .social-con li.current .job-con .job-detail p{*/
+    /*line-height:24px;*/
+/*}*/
+.nav-con .social-con li .job-con .job-bnt{
+    background-color: #C52025;
+    width: 146px;
+    height: 48px;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    outline-style: none;
+    border:none;
+    cursor: pointer;
+    margin-top: 33px;
+}
+.nav-con .social-con li.current{
+    border:none;
+}
+.nav-con .social-con li.current .p{
+    color: #90272A;
+}
+
+/*校招*/
+.social-con .school-con{
+    width: 1176px;
+    margin: 0 auto;
+}
+.social-con .school-con img{
+    margin: 26px 0 42px;
+    width: 100%;
+}
+.social-con .school-con h1{
+    font-size: 36px;
+    color: #90272A;
+    letter-spacing: 0;
+    line-height: 47px;
+    margin-bottom: 9px;
+}
+.social-con .school-con .step{
+    margin-bottom:9px ;
+}
+.social-con .school-con .step h2{
+    margin-bottom: 9px;
+}
+.social-con .school-con .step h2,.social-con .school-con .step strong{
+    font-size: 20px;
+    color: #1A1A1A;
+    letter-spacing: 0;
+    line-height: 26px;
+}
+/*//联系我们*/
+.contact-con-main *{
+    flex-wrap: wrap;
+}
+.contact-con-main{
+    width: 1162px;
+    margin: 0 auto;
+}
+.banner{
+    width: 100%;
+}
+.contact-con-main .mess-con h3{
+    font-size: 28px;
+    color: #2D3134;
+    letter-spacing: 0;
+    font-weight: bold;
+    line-height: 37px;
+    margin: 32px 0 16px;
+}
+.contact-con-main .mess-con p{
+    font-size: 20px;
+    color: #2D3134;
+    letter-spacing: 0;
+}
+#map-container{
+    width: 1162px;
+    height:467px;
+    margin-top: 16px;
+}
