@@ -18,3 +18,5 @@
 
 date_default_timezone_set('PRC');
 require 'webroot' . DIRECTORY_SEPARATOR . 'index.php';
+
+//test
