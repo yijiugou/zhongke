@@ -1,152 +1,102 @@
-<link rel="stylesheet" href="/css/yjkg/index.css" />
- <!--[if lte IE 9]>
-    <link rel="stylesheet" href="/css/yjkg/ie.index.css" />
-    <link rel="stylesheet" href="/js/swiper/css/swiper.js" />
- <![endif]-->
-<script src="/js/swiper/js/swiper.min.js"></script>
-<script src="/js/main_3.js"></script>
+    <!-- banner start -->
 
-<div class="out_w t">
-    <div class="con">
-        <div class="left-con">
-            <div>
+    <!-- banner end -->
+    <!-- 右侧固定栏 -->
 
-                <div class="swiper-container" id="sw3" style="position:relative;">
-                    <div class="swiper-wrapper">
-                        <?php foreach($adlist as $item){ ?>
-                        <div class="swiper-slide">
-                            <div class="i-banner-item">
-                                <div class="i-b-con">
-                                <a href="<?php echo $item['link']; ?>" target="_blank" title="<?php echo $item['title']; ?>"><?php echo $item['title']; ?></a>
-                                </div>
-                                <a title="<?php echo $item['title']; ?>" href="<?php echo $item['link']; ?>" target="_blank"><img alt="<?php echo $item['title']; ?>" src="<?php echo $item['pic_01']; ?>" alt=""></a>
-                                
-                            </div>
-                        </div>
-                        <?php } ?>
-                        
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-
-                <script>
-                    var swiper3 = new Swiper('#sw3', {
-                        loop: true,
-                        autoplay:true,
-                        pagination: {
-                            el: '#sw3 .swiper-pagination',
-                            clickable: true,
-                        },
-                    });
-                </script>
-
-            </div>
-
-            <div>
-                <div class="content">
-                    <ul>
-                        <li class="yn_list_li " style="display:none">
-                            <a href="/Xfpl/detail?id=4827&amp;tabID=1" target="_blank" title="天洋表决及管理权被夺，ST舍得要回归国有？身陷风波的ST舍得未来走向如何？">
-                                <div class="li_img">
-                                    <img alt="天洋表决及管理权被夺，ST舍得要回归国有？身陷风波的ST舍得未来走向如何？" src="/upload/2020-11-30/5fc4656623b9b.jpg">
-                                </div>
-                                <div class="li_txt">
-                                    天洋表决及管理权被夺，ST舍得要回归国有？身陷风波的ST舍得未来走向如何？                                </div>
-                                
-                                <div class="li_cnt">&nbsp;&nbsp;&nbsp;
-                                    '11月26日晚，ST舍得发布公告称，天洋控股持有的公司控股股东沱牌舍得集团70%股权对应的表决权和管理权等将由...                                </div>
-                                <div class="li_cntt"><p><span>栏目：
-                                酒界观察                                </span><span>发布时间:2020-11-28 11:16:14</span></p></div>
-                            </a>
-                            <div class="clr"></div>
-                        </li>
-                    <?php foreach($alllist as $item){ ?>
-                        <li class="yn_list_li ">
-                            <a href="/Xfpl/detail?id=<?php echo $item['id'];?>&tabID=1" target="_blank" title="<?php echo $item['title']; ?>">
-                                <div class="li_img">
-                                    <img alt="<?php echo $item['title']; ?>" src="<?php echo $item['pic_01'];?>">
-                                </div>
-                                <div class="li_txt">
-                                    <?php echo $item['title']; ?>
-                                </div>
-                                
-                                <div class="li_cnt">&nbsp;&nbsp;&nbsp;
-                                    <?php if(mb_strlen($item['sub_title'])>60){ echo mb_substr($item['sub_title'],0,56).'...';}else{echo $item['sub_title'];}?>
-                                </div>
-                                <div class="li_cntt"><p><span>栏目：
-                                <?php echo $cates[$item['class']]['class_name']; ?>
-                                </span><span>发布时间:<?php echo $item['pubdate']; ?></span></p></div>
-                            </a>
-                            <div class="clr"></div>
-                        </li>
-                    <?php } ?>
-                        
-                    </ul>
-                </div>
-            </div>
-<style>
-/*加载更多模块*/
-.loading-more { }
-.loading-more a { display:block; background-color:#fefefd; border:1px solid #efefef; text-align:center; height:50px; line-height:50px; color:#898989;}
-
-</style>
-<!--加载更多模块-->
-            <div class="loading-more f16 mt-31" cid="0" style="margin-top: 0px;"><a href="javascript:void(0)">加载更多</a></div>
-
+    <!-- ASTA TECH -->
+    <section class="indexIntro">
+        <div class="ibgPic">
+            <img src="static/picture/bg1.png">
+        </div>
+        <!-- 浮动的字 -->
+        <div class="techTxt target">
+            <font>tech</font>
         </div>
 
-        <?php  echo $this->element('pc_view_right');?>
-    </div>
- 
-
-
-    <div class="clr"></div>
-</div>
-
-
-<script>
-
-
-(function($){
-    var page = 2,status = true;
-
-    $(".loading-more").bind("click",function(){
-    var cid = $(this).attr("cid");
-    if ($("div.loading-more a").text()=="加载中....") {
-    console.log("加载中....");return false;
-    }
-    $("div.loading-more a").text("加载中....");
-    console.log('加载中...');
-    $.get("/Index/more", {p: page}, function(res) {
-         $("div.loading-more a").text("加载更多");status = true;
-         $(".yn_list_li").last().after(res);
-            page++;
-    });
-});
-
-
-
-$(window).scroll(function() {
-    var _bottom = $(this).scrollTop() + $(window).height() - $("div.loading-more").offset().top;
-    //当内容滚动到底部时加载新的内容
-    //console.log("page:"+page);
-    if ($(this).scrollTop() + $(window).height() + _bottom >= $(document).height() && $(this).scrollTop() > _bottom) {
-        //当前要加载的页码
-        if(page > 4) return ;
-        if( status == true ){status = false;
-        $(".loading-more").trigger("click");
-        }
-
-    }
-});
-
-
-//$(".loading-more").trigger("click");
-
-
-})(jQuery);
-
-        
-/*]]>*/
-</script>
+        <div class="atBot clearfix">
+            <div class="atleft">
+                <div class="alcont transYT50 target dly_2 clearfix">
+                    <span class="altxt1"><strong></strong>中科赛亚</span>
+                    <h2 class="altxt2"> </h2>
+                    <p class="altxt3">爱经营范围包括细胞工程、细胞系列技术工程、细胞治疗、细胞抗体、细胞医药、基因药物、保健品、化妆品、诊断试剂、医疗器械的技术开发、技术服务、技术咨询、技术转让、技术检测；销售化妆品，批发药品，零售药品，医疗美容服务，保健服务，生物科学技术研究服务，货物或技术进出口；化妆品销售；生物技术推广服务。</p>
+                    <a href="/about" class="almore"><em class="amline"></em><span class="cmk">更多</span></a>
+                </div>
+                <div class="alpic transYT50 target dly_4">
+                    <img src="static/picture/20191141051506284.jpg">
+                </div>
+            </div>
+            <div class="atright transXT50 target dly_8" style="background-image: url(static/image/pic1.jpg);">
+                <ul class="clearfix">
+                    
+                            <li>
+                                <p class="arnum">
+                                    <span class="ang" data-to="8000" data-speed="300">8000</span>
+                                    <font>+</font>
+                                </p>
+                                <span class="artxt">目录产品</span>
+                            </li>
+                        
+                            <li>
+                                <p class="arnum">
+                                    <span class="ang" data-to="160" data-speed="300">160</span>
+                                    <font>+</font>
+                                </p>
+                                <span class="artxt">研发人员</span>
+                            </li>
+                        
+                            <li>
+                                <p class="arnum">
+                                    <span class="ang" data-to="80" data-speed="300">80</span>
+                                    <font>+</font>
+                                </p>
+                                <span class="artxt">专利</span>
+                            </li>
+                        
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- 新闻列表 -->
+    <section class="indexNews clearfix" style="background-image: url(static/image/bg2.jpg);">
+        <div class="newsTitle clearfix">
+            <h5 class="nttitle">新闻中心</h5>
+            <a href="javascript:;" class="ntmore">More<i class="iconfont">&#xe727;</i></a>
+        </div>
+        <div class="inBot">
+            <ul>
+                
+                        <li class="transXT50 target dly_1">
+                            <a href="javascript:;">
+                                <span class="indate">2020-10-13</span>
+                                <h5 class="intxt1 eT">中科赛亚生物科技有限公司</h5>
+                                <p class="intxt2"></p>
+                                <b class="inlink"><font class="iltxt">MORE</font><i class="iconfont">&#xe727;</i></b>
+                            </a>
+                        </li>
+                    
+                        <li class="transXT50 target dly_7">
+                            <a href="javascript:;">
+                                <span class="indate">2020-09-30</span>
+                                <h5 class="intxt1 eT">聚点滴之俭，添光盘之彩</h5>
+                                <p class="intxt2">为深入贯彻落实习近平总书记“坚决制止餐饮浪费行为，切实培养节约习惯，在全社会营造浪费可耻、节约为荣的氛围”重要指示精神，2020年9月7 -30日爱斯特（成都）生物制药股份有限公司工会委员会联合党委、行政部与企划部开展了光盘行动活动，树文明节俭之风，立光盘行动之本，爱斯特人在行动。</p>
+                                <b class="inlink"><font class="iltxt">MORE</font><i class="iconfont">&#xe727;</i></b>
+                            </a>
+                        </li>
+                    
+                        <li class="transXT50 target dly_5">
+                            <a href="javascript:;">
+                                <span class="indate">2020-09-09</span>
+                                <h5 class="intxt1 eT">光盘行动</h5>
+                                <p class="intxt2">为了响应习近平总书记最近提出的“坚决制止餐饮浪费行为，切实培养节约习惯”，在爱斯特工会、党支部、行政部与企划部的策划和组织下，开展了“ 光盘行动”计划，通过21天节惯养成法引导全体员工养成节约粮食的好节惯，唤醒爱斯特家人们内心对粮食的珍惜。活动开始就受到全体职工的积极响应和支持。</p>
+                                <b class="inlink"><font class="iltxt">MORE</font><i class="iconfont">&#xe727;</i></b>
+                            </a>
+                        </li>
+                    
+            </ul>
+        </div>
+    </section>
+    <!-- 地图 -->
+    
+    <!-- 合作伙伴 -->
+    
 
