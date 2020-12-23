@@ -1,5 +1,4 @@
 src/app/Config/database.php
 
-src/app/tmp/
+src/app/tmp
 
-src/app/tmp/*
