@@ -3,7 +3,9 @@
  <head>  
  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
  <title> <?php if (isset($loginUser['company_name'])) echo $loginUser['company_name'];?></title>
+ <!--
  <link rel="shortcut icon" type="image/ico" href="/favicon.ico">
+-->
  <link rel="stylesheet" href="/css/all.css" />
 
 <link rel="stylesheet" href="/js/kindeditor/themes/default/default.css" />
