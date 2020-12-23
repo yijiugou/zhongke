@@ -1,0 +1,1934 @@
+@media screen and (min-width:2800px) {
+	.header .yj-bot .yj-link {
+		font-size: 36px;
+	}
+	.hsearch i {
+		font-size: 60px;
+	}
+	.language {
+		font-size: 28px;
+	}
+	.icicon {
+		width: 180px;
+		height: 180px;
+		line-height: 180px;
+	}
+	.icicon i {
+		font-size: 130px;
+	}
+	.icdesc {
+		font-size: 56px;
+	}
+	.icspe {
+		width: 250px;
+		font-size: 30px;
+	}
+	.icspe a {
+		margin-top: 10px;
+	}
+	.altxt1,
+	.altxt3 {
+		font-size: 32px;
+	}
+	.altxt3 {
+		max-height: 150px;
+	}
+	.cmk {
+		font-size: 24px;
+		width: 85px;
+		height: 81px;
+		background-position: 61px;
+		line-height: 81px;
+	}
+	.artxt {
+		font-size: 28px;
+	}
+	.cmk:before {
+		top: 39.5px;
+	}
+	.indexNews {
+		padding: 280px 0 150px 0;
+	}
+	.nttitle {
+		font-size: 60px;
+	}
+	.ntmore,
+	.indate {
+		font-size: 32px;
+	}
+	.intxt1 {
+		font-size: 36px;
+		height: 54px;
+	}
+	.intxt2 {
+		font-size: 30px;
+		height: 90px;
+	}
+	.inlink i {
+		font-size: 40px;
+	}
+	.altxt2 {
+		font-size: 80px;
+	}
+	.imcont .altxt3 {
+		height: 150px;
+	}
+	.imcont .cmk {
+		font-size: 24px;
+		width: 85px;
+		height: 81px;
+		background-position: 10px;
+		line-height: 81px;
+		background-size: contain;
+	}
+	.fltitle {
+		font-size: 32px;
+	}
+	.flway,
+	.fbcopyright {
+		font-size: 28px;
+	}
+	.footerWrap,
+	.fbbot,
+	.mapBot,
+	.imcont,
+	.inBot,
+	.newsTitle {
+		width: 70%;
+	}
+	.mdicon i {
+		font-size: 74px;
+	}
+	.updown i {
+		font-size: 80px;
+	}
+	.frcontact i {
+		font-size: 80px;
+	}
+	.frcontact {
+		width: 112px;
+		height: 130px;
+		line-height: 130px;
+	}
+	.atBot {
+		width: 50%;
+	}
+	.atright {
+		background-size: cover;
+	}
+	.indexIntro {
+		padding: 100px 0 400px 0;
+	}
+	.almore:hover .cmk {
+		background-position: 62px;
+	}
+	.mouseIco {
+		border-radius: 28px;
+		width: 48px;
+		height: 84px;
+	}
+	.mouseIco i {
+		width: 4px;
+		height: 16px;
+	}
+	.inlink:before {
+		width: 228px;
+		height: 64px;
+	}
+	.inlink font {
+		line-height: 64px;
+		font-size: 28px;
+	}
+}
+
+@media screen and (max-width:1750px) {
+	.footerWrap,
+	.fbbot {
+		width: 90%;
+	}
+	.header .head-logo {
+		left: 5%;
+	}
+	.headContact {
+		right: 5%;
+	}
+	.header .yj-bot .yj-link {
+		font-size: 18px;
+		padding: 0 25px;
+	}
+}
+
+@media screen and (max-width:1660px) {
+	.fwright {
+		width: 50%;
+	}
+	.imcont {
+		width: 90%;
+		left: 5%;
+	}
+}
+
+@media screen and (max-width:1600px) {
+	.inBot,
+	.ipBot,
+	.newsTitle {
+		width: 90%;
+	}
+	.imcont {
+		left: 5%;
+	}
+	.fs-select {
+		margin-left: 20px;
+	}
+	.w1500 {
+		width: 80%;
+	}
+	.sl2pic {
+		width: 65%;
+	}
+	.fix-head .ifbot {
+		width: 90%;
+		padding: 0 5%;
+	}
+	.fix-head .insidesTab {
+		width: auto;
+	}
+}
+
+@media screen and (max-width:1550px) {
+	.atBot,
+	.aboutIntro {
+		width: 80%;
+	}
+	.aboutIntro {
+		box-sizing: border-box;
+	}
+	.srtitle {
+		font-size: 40px;
+	}
+	.itc {
+		font-size: 40px;
+	}
+	.insidesTitle {
+		width: 80%;
+	}
+	.ainame,
+	.aititle,
+	.recruitTit,
+	.s5title {
+		font-size: 28px;
+	}
+	.nctit {
+		font-size: 24px;
+		max-height: 72px;
+	}
+	.newsTab .nt {
+		font-size: 24px;
+	}
+	.ctname,
+	.aw5Title {
+		font-size: 24px;
+	}
+	.sc2tit {
+		font-size: 24px;
+	}
+	.astxt {
+		font-size: 20px;
+	}
+	.asTitle {
+		font-size: 20px;
+	}
+	.sl4icon {
+		width: 40px;
+		font-size: 40px;
+	}
+	.linkbtn {
+		margin-top: 80px;
+	}
+	.header .head-logo {
+		left: 5%;
+	}
+	.headContact {
+		right: 5%;
+	}
+	.cl-txt1 {
+		font-size: 22px;
+	}
+	.cl-txt2 {
+		font-size: 24px;
+		padding-bottom: 20px;
+	}
+	.cl-txt3 {
+		font-size: 20px;
+		margin-top: 10px;
+	}
+	.aceng {
+		font-size: 26px;
+	}
+	.ej-list {
+		width: 75%;
+		padding: 0 12.5% 40px 12.5%;
+	}
+}
+
+@media screen and (max-width: 1440px) {
+	.indexIntro {
+		height: 800px;
+	}
+	.w1200 {
+		width: 80%;
+	}
+	.sibot {
+		width: 100% !important;
+	}
+	.insidesTab a {
+		font-size: 14px;
+	}
+	.icbtn {
+		margin: 30px auto 0;
+	}
+	.icspe {
+		margin: 15px auto 0;
+	}
+	.icbtn {
+		margin: 20px auto 0;
+	}
+	.updown i {
+		right: 30px;
+	}
+	.ibitem:hover .icnr {
+		top: 10%;
+	}
+	.ibitem:hover .icicon {
+		width: 150px;
+		height: 186px;
+		line-height: 186px;
+	}
+	.icdesc {
+		font-size: 24px;
+		margin-top: 20px;
+	}
+	.icicon i {
+		font-size: 62px;
+	}
+	.flway {
+		font-size: 14px;
+		padding-bottom: 10px;
+	}
+	.fwright {
+		width: 55%;
+	}
+	.service1List li,
+	.ablitem,
+	.abritem {
+		padding: 80px 0;
+	}
+	.aicont {
+		padding: 0 8%;
+	}
+	.actit {
+		font-size: 24px;
+	}
+	.hlcont {
+		padding: 10px 20px;
+	}
+	.header .yj-bot .yj-link {
+		padding: 0 20px;
+	}
+	.header .head-logo {
+		width: 160px;
+	}
+	.header {
+		height: 80px;
+	}
+	.header .yj-bot .yj-link {
+		height: 80px;
+		line-height: 80px;
+	}
+	.headContact {
+		top: 24px;
+	}
+	.header .head-logo {
+		margin: 8.5px 0 0 0;
+	}
+	.language {
+		margin-left: 15px;
+	}
+	.ittext div {
+		font-size: 14px;
+	}
+	.mtop {
+		height: 80px;
+	}
+}
+
+@media screen and (max-width: 1370px) {
+	.fritem {
+		margin-left: 50px;
+	}
+	.fs-select {
+		margin-left: 10px;
+	}
+	.nctit {
+		font-size: 22px;
+		max-height: 66px;
+	}
+	.nctit {
+		max-height: 33px;
+	}
+	.leaderPic {
+		width: 25%;
+	}
+	.fwright {
+		width: 55%;
+	}
+	.header .yj-bot .yj-link {
+		padding: 0 15px;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	.icicon i {
+		font-size: 60px;
+	}
+	.icdesc {
+		font-size: 24px;
+	}
+	.icline {
+		width: 2px;
+		height: 46px;
+	}
+	.icbtn:before {
+		height: 2px;
+	}
+	.atBot {
+		width: 90%;
+	}
+	.altxt2 {
+		width: 250px;
+		font-size: 28px;
+		max-height: 84px;
+	}
+	.arnum {
+		font-size: 50px;
+	}
+	.atright {
+		background-size: cover;
+		padding: 40px 0 60px 0;
+	}
+	.atright li {
+		margin: 40px 70px;
+	}
+	.mapBot {
+		width: 90%;
+	}
+	.srtitle {
+		font-size: 35px;
+	}
+	.searchResult {
+		padding: 60px 0;
+	}
+	.srbox {
+		margin: 50px auto 0;
+	}
+	.srbox {
+		width: 80%;
+	}
+	.itc {
+		font-size: 35px;
+	}
+	.itl,
+	.itr {
+		width: 46px;
+		height: 46px;
+		line-height: 46px;
+	}
+	.itl i,
+	.itr i {
+		font-size: 14px;
+	}
+	.ainame,
+	.aititle {
+		font-size: 26px;
+	}
+	.actit {
+		font-size: 24px;
+	}
+	.actxt2 {
+		margin-top: 20px;
+	}
+	.cltitle {
+		font-size: 22px;
+	}
+	.nttxt1 {
+		font-size: 22px;
+	}
+	.ndprev,
+	.ndnext {
+		width: 28%;
+	}
+	.atcont {
+		padding: 15px 20px;
+	}
+	.atctxt2 {
+		font-size: 18px;
+		height: 27px;
+		margin-top: 0;
+	}
+	.atctxt3 {
+		margin-top: 10px;
+	}
+	.si4cont {
+		font-size: 18px;
+	}
+	.s5bot {
+		margin-top: 40px;
+	}
+	.s5title {
+		font-size: 20px;
+	}
+	.insidesTab a {
+		font-size: 13px;
+	}
+	.indexNews {
+		padding: 160px 0 110px 0;
+	}
+	.nttitle {
+		font-size: 28px;
+	}
+	.ej-list {
+		width: 80%;
+		padding: 0 10% 40px 10%;
+	}
+	.atctxt2 {
+		height: 54px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.mlanguage{
+		display: none;
+	}
+	.footerwj {
+		margin-left: 0;
+	}
+	.updown {
+		opacity: 1;
+		visibility: visible;
+	}
+	.updown i {
+		position: absolute;
+	}
+	.nav,
+	.head-write {
+		display: none;
+	}
+	.menu-handler,
+	.menuBox {
+		display: block;
+	}
+	.header {
+		background: #fff;
+		height: 55px;
+		position: fixed;
+		left: 0;
+	}
+	.header .head-logo {
+		top: 0;
+		width: 110px;
+		margin: 5.5px 0 0 0;
+	}
+	.mtop {
+		height: 55px;
+	}
+	.headContact {
+		line-height: 55px;
+		right: 45px;
+		top: 11.5px;
+	}
+	/*.language {
+		display: none !important;
+	}*/
+	.headContact a {
+		font-size: 14px;
+	}
+	.language {
+		margin-left: 8px;
+	}
+	.head-wrap {
+		width: 94%;
+	}
+	.hsearch i {
+		font-size: 22px;
+	}
+	.searchBot {
+		height: 55px;
+		line-height: 55px;
+		width: 90%;
+		padding: 0 5%;
+	}
+	.searchbox {
+		height: 35px;
+		margin: 12px 0 0 0;
+		line-height: 35px;
+		padding: 0 20px;
+		width: 80%;
+	}
+	.searchbox input {
+		font-size: 14px;
+	}
+	.searchbox .sbicon i {
+		font-size: 20px;
+	}
+	.closesearch i {
+		font-size: 25px;
+	}
+	.indexIntro {
+		height: 700px;
+	}
+	.mdzk {
+		width: 120px;
+	}
+	.mdtxt2 font {
+		width: auto;
+	}
+	.indexPartner {
+		display: none;
+	}
+	.fwleft {
+		width: 100%;
+	}
+	.fwright {
+		display: none;
+	}
+	.fbcopyright,
+	.fbselect {
+		float: none;
+		width: 100%;
+	}
+	.fs-select {
+		width: 90%;
+		float: none;
+		margin-left: 0;
+		margin-top: 10px;
+		border: 1px solid #616161;
+		padding: 5px 5%;
+		background: url(../image/sr.png) 95% no-repeat;
+	}
+	.w1500 {
+		width: 90%;
+	}
+	.aboutIntro {
+		width: 90%;
+		padding: 30px 0 60px 0;
+	}
+	.technologyIntro {
+		width: 90%;
+	}
+	.w1200 {
+		width: 90%;
+	}
+	.cwleft {
+		float: none;
+		width: 100%;
+	}
+	.contactway {
+		position: relative;
+	}
+	.cwright {
+		position: absolute;
+		top: 60px;
+		left: 0;
+	}
+	.contactway {
+		padding: 60px 0;
+	}
+	.ndprev font,
+	.ndnext font {
+		width: 100%;
+	}
+	.ndlist {
+		width: 100%;
+		box-sizing: border-box;
+		padding: 0 15px;
+	}
+	.ndprev,
+	.ndnext {
+		position: static;
+	}
+	.ndprev,
+	.ndnext {
+		width: 100%;
+	}
+	.ndprev:before,
+	.ndnext:before {
+		display: none;
+	}
+	.ndlist {
+		height: 40px;
+		line-height: 40px;
+	}
+	.ndlist em {
+		margin-top: 19px;
+	}
+	.insidesTab {
+		display: none;
+	}
+	.tc2words {
+		margin-top: 30px;
+	}
+	.service1List {
+		width: 90%;
+		margin: 0 auto 50px;
+	}
+	.sl2pic {
+		margin-top: 0;
+	}
+	.ndprev .ndline,
+	.ndnext .ndline {
+		display: none;
+	}
+	.fritem {
+		float: none;
+		width: 100%;
+		margin-top: 10px;
+	}
+	.footerWrap {
+		padding: 30px 0;
+	}
+	.sl2cont {
+		width: 90%;
+		padding: 0 5%;
+	}
+	.ablitem .aicont,
+	.abritem .aicont {
+		width: 40%;
+	}
+	.ablitem,
+	.abritem {
+		background-position: center center;
+	}
+	.service1List li {
+		height: auto;
+	}
+	.fwleft {
+		display: block;
+		justify-content: initial;
+	}
+	.fritem {
+		margin-left: 0;
+	}
+	.ablitem,
+	.abritem {
+		height: auto;
+	}
+	.footerWrap {
+		width: 90%;
+	}
+	.sc2txt2 {
+		margin-top: 5px;
+	}
+	.dc-list-wrap {
+		margin: 40px 0 50px 0;
+	}
+	.artxt {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 1190px) {}
+
+@media screen and (max-width: 1100px) {}
+
+@media screen and (max-width: 1024px) {
+	.ibitem:hover .icnr {
+		top: 40%;
+	}
+	.ibitem:hover .icicon {
+		background: none;
+	}
+	.joinus2 {
+		padding: 30px 0 60px 0;
+	}
+	.aidata li {
+		margin: 20px 25px 0 25px;
+	}
+	.ibitem {
+		float: none;
+		width: 100%;
+	}
+	.icdetail,
+	.ibitem:hover .icline {
+		display: none;
+	}
+	.ibitem:hover .icicon {
+		width: 90px;
+		height: 90px;
+		line-height: 90px;
+		border-radius: 50%;
+		background: url(../image/op2.png) repeat;
+	}
+	.iccont {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+	.icicon,
+	.icdesc {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.icdesc {
+		margin-top: 0;
+		margin-left: 10px;
+	}
+	.ibpic {
+		height: 350px;
+	}
+	.ibpic img {
+		width: 100%;
+		height: auto;
+	}
+	.mouseBox {
+		display: none;
+	}
+	.icnr {
+		width: 80%;
+		left: 50%;
+		top: 40%;
+		margin-left: -40%;
+		text-align: left;
+	}
+	.alpic {
+		display: none;
+	}
+	.indexIntro {
+		width: 90%;
+		margin: 0 auto;
+		height: auto;
+		background-size: contain;
+		padding: 30px 0 20px 0;
+	}
+	.techTxt,
+	.astaTxt {
+		display: none;
+	}
+	.atleft {
+		float: none;
+		width: 100%;
+	}
+	.atright {
+		float: none;
+		width: 100%;
+		margin-top: 38px;
+		padding: 60px 0 60px 0;
+	}
+	.atBot {
+		margin: 10px auto 10px;
+	}
+	.almore {
+		margin-top: 25px;
+	}
+	.atBot {
+		width: 100%;
+	}
+	.atright ul {
+		margin-left: -2%;
+	}
+	.atright li {
+		float: left;
+		text-align: center;
+		width: 31.333%;
+		box-sizing: border-box;
+		margin: 0 0 0 2%;
+	}
+	.indexNews {
+		padding: 0;
+		background: #fff;
+		background-image: none !important;
+	}
+	.indate {
+		color: #ACACAC;
+	}
+	.intxt1 {
+		color: #4A4A4A;
+	}
+	.intxt2 {
+		color: #6E6E6E;
+	}
+	.indate:before {
+		background: #4A4A4A;
+	}
+	.inlink:before {
+		border: 1px solid #6E6E6E;
+	}
+	.inlink {
+		color: #6E6E6E;
+	}
+	.inlink {
+		margin-top: 10px;
+	}
+	.inBot li {
+		float: none;
+		width: 94%;
+		margin-top: 20px;
+	}
+	.inBot {
+		margin: 30px auto 30px;
+	}
+	.newsTitle {
+		margin-bottom: 0;
+		border-bottom: 1px solid #E4E4E4;
+		padding-bottom: 15px;
+	}
+	.imcont {
+		margin: 0 auto;
+	}
+	.icl {
+		display: none;
+	}
+	.imcont .almore {
+		position: static;
+		transform: translateY(0);
+		margin-top: 30px;
+	}
+	.indexMap {
+		padding-bottom: 30px;
+	}
+	.footerWrap {
+		padding: 30px 0;
+	}
+	.updown i {
+		top: 30px;
+		right: 5%;
+	}
+	.flway {
+		margin-top: 15px;
+		font-size: 12px;
+	}
+	.srtitle {
+		font-size: 24px;
+	}
+	.w1200 {
+		width: 90%;
+	}
+	.scroll-w {
+		overflow-x: scroll;
+	}
+	.srList {
+		padding: 60px 0 80px 0;
+	}
+	.sltitle {
+		font-size: 20px;
+	}
+	.sltit {
+		font-size: 16px;
+		height: 28px;
+	}
+	.sltxt {
+		font-size: 14px;
+		height: 25px;
+	}
+	.srList li {
+		padding: 20px 0;
+	}
+	.insidesBanner {
+		padding-top: 60px;
+	}
+	.itc {
+		font-size: 28px;
+	}
+	.insidesTitle {
+		margin: 0 auto 60px;
+	}
+	.itc {
+		line-height: 1.5;
+	}
+	.insidesTab a {
+		font-size: 14px;
+	}
+	.actit {
+		font-size: 20px;
+	}
+	.acetxt1 {
+		font-size: 15px;
+	}
+	.clevent {
+		width: auto;
+		float: none;
+	}
+	.cltitle {
+		font-size: 18px;
+	}
+	.cltitle {
+		float: none;
+		width: 100%;
+	}
+	.fs-select,
+	.fbcopyright {
+		font-size: 12px;
+	}
+	.fbcopyright a {
+		display: block;
+		margin-left: 0;
+	}
+	.clbt {
+		padding: 30px 0;
+	}
+	.courseList {
+		margin-bottom: 30px;
+	}
+	.lbleft {
+		position: static;
+	}
+	.leaderBot {
+		padding: 30px;
+	}
+	.lbright {
+		margin-top: 20px;
+	}
+	.lltop {
+		margin-top: 15px;
+	}
+	.lpost {
+		font-size: 20px;
+	}
+	.ldetail {
+		margin-top: 10px;
+	}
+	.leaderList li {
+		width: 98%;
+		padding: 20px;
+	}
+	.leaderList {
+		margin-bottom: 60px;
+	}
+	.hlcont {
+		padding: 10px;
+	}
+	.newsTab {
+		margin-top: 60px;
+	}
+	.nsbot {
+		width: 80%;
+		padding: 0 5%;
+		height: 45px;
+		line-height: 45px;
+	}
+	.newssearch {
+		padding: 30px 0;
+	}
+	.nsbot input {
+		height: 45px;
+	}
+	.newsbox {
+		padding: 30px 0 60px 0;
+	}
+	.newslist li {
+		width: 97%;
+		padding: 20px 0;
+	}
+	.maps {
+		height: 300px;
+	}
+	.ndsx {
+		padding: 40px 0;
+	}
+	.techcont2,
+	.techcont3 {
+		padding: 40px 0;
+	}
+	.tc2pic {
+		float: none;
+		width: 100%;
+	}
+	.tc2words {
+		float: none;
+		width: 100%;
+	}
+	.techcont2 .tc2words:before,
+	.techcont3 .tc2words:before {
+		display: none;
+	}
+	.tipic {
+		margin-top: 40px;
+	}
+	.techequipment {
+		padding: 40px 0;
+	}
+	.ipeng {
+		font-size: 22px;
+		letter-spacing: 2px;
+	}
+	.iptit {
+		font-size: 20px;
+	}
+	.jucList {
+		margin-top: 30px;
+	}
+	.recruitment {
+		margin-top: 30px;
+	}
+	.recruitTit {
+		font-size: 18px;
+	}
+	.joinusCont {
+		padding: 40px 0 60px 0;
+	}
+	.about5Wrap {
+		padding-bottom: 40px;
+	}
+	.service4 {
+		width: 90%;
+	}
+	.service4 {
+		padding-bottom: 20px;
+	}
+	.service5 {
+		padding-bottom: 60px;
+	}
+	.productsTable {
+		margin: 50px 0 60px 0;
+	}
+	.cover-apply-bg .close-bot {
+		top: 0;
+		margin-top: 0;
+		right: 0;
+	}
+	.cover-apply-bg .mbclose i {
+		top: 20px;
+		margin-top: 0;
+		right: 30px;
+		color: #333;
+		font-size: 30px;
+	}
+	.cover-apply-bg .apply-detail-bot {
+		width: 100%;
+		margin-top: 0;
+		box-sizing: border-box;
+		box-shadow: none;
+		padding: 50px 5%;
+	}
+	.nttitle {
+		font-size: 22px;
+		color: #000;
+	}
+	.ntmore {
+		color: #666;
+		margin-top: 4px;
+	}
+	.leaderCont {
+		width: 70%;
+	}
+	.particles-js {
+		display: none;
+	}
+	.cover-apply-bg .apply-detail .agw {
+		font-size: 24px;
+	}
+	.imcont .cmk:before {
+		left: 0;
+	}
+	.imcont .cmk {
+		padding-left: 52px;
+		background-position: 52px;
+	}
+	.al8-cricle {
+		width: 200px;
+		height: 200px;
+	}
+	.ac8-icon {
+		font-size: 40px;
+	}
+	.aw8-list li {
+		margin: 0 10px;
+	}
+	.al8-txt2:before {
+		background: none;
+	}
+	.about8-wrap {
+		margin: 60px 0;
+	}
+	.service1List li,
+	.ablitem,
+	.abritem {
+		padding: 50px 0;
+	}
+	.sc2tit {
+		font-size: 20px;
+	}
+	.sc2txt1 {
+		font-size: 16px;
+	}
+	.sc2txt2 {
+		font-size: 14px;
+	}
+	.imcont {
+		position: static;
+	}
+	.indexMap {
+		height: auto;
+	}
+	.indexMap .imcont .almore {
+		margin-top: 0;
+	}
+	.about5Wrap li {
+		width: 48%;
+	}
+}
+
+@media screen and (max-width: 900px) {}
+
+@media screen and (max-width: 860px) {
+	.mdicon i {
+		font-size: 20px;
+	}
+	.tipic {
+		background-attachment: local;
+		height: 250px;
+	}
+	.mdzk {
+		padding: 10px;
+	}
+	.mdtxt1 {
+		padding: 2px;
+		font-size: 12px;
+	}
+	.mztit {
+		font-size: 12px;
+	}
+	.mdtxt2 font {
+		font-size: 12px;
+		width: 80%;
+	}
+	.mdtxt2 i {
+		font-size: 12px;
+		margin-left: 10px;
+	}
+	.itc {
+		font-size: 24px;
+	}
+	.insidesTitle {
+		margin: 0 auto 40px;
+	}
+	.insidesBanner {
+		padding-top: 40px;
+	}
+	.ainame,
+	.aititle {
+		font-size: 20px;
+	}
+	.aitxt {
+		width: auto;
+		font-size: 16px;
+	}
+	.aboutIntro {
+		padding: 30px 0;
+	}
+	.honorList li {
+		width: 48%;
+	}
+	.hctxt {
+		height: 21px;
+		font-size: 12px;
+	}
+	.hcicon {
+		top: 0;
+	}
+	.nfpic {
+		float: none;
+		width: 100%;
+	}
+	.nfcont {
+		float: none;
+		width: 100%;
+		padding: 0;
+		margin-top: 20px;
+	}
+	.nctit {
+		font-size: 18px;
+		max-height: 27px;
+	}
+	.ncdesc {
+		margin-top: 10px;
+	}
+	.newsTab .nt {
+		font-size: 20px;
+	}
+	.pageList {
+		margin-top: 40px;
+	}
+	.ctname {
+		font-size: 20px;
+	}
+	.ndtitle {
+		padding: 40px 0;
+	}
+	.nttxt1 {
+		font-size: 20px;
+		line-height: 1.5;
+	}
+	.ntdetail {
+		margin-top: 5px;
+		font-size: 12px;
+	}
+	.ndtext {
+		margin: 0 5px;
+	}
+	.aw5Title {
+		font-size: 18px;
+	}
+	.sitit {
+		font-size: 18px;
+	}
+	.sitxt {
+		margin-top: 10px;
+	}
+	.astxt {
+		font-size: 18px;
+		letter-spacing: 4px !important;
+	}
+	.asTitle {
+		font-size: 18px;
+	}
+	.service4List li {
+		padding: 20px;
+		margin-bottom: 20px;
+	}
+	.sl4icon {
+		width: 30px;
+		font-size: 30px;
+	}
+	.sl4txt {
+		font-size: 14px;
+		height: 25px;
+	}
+	.service4intro {
+		margin-top: 20px;
+	}
+	.si4txt1,
+	.si4txt2 {
+		font-size: 20px;
+	}
+	.si4cont {
+		font-size: 16px;
+	}
+	.s5title {
+		font-size: 18px;
+	}
+	.s5cont {
+		font-size: 14px;
+	}
+	.s5bot {
+		margin-top: 30px;
+	}
+	.tipic {
+		display: none;
+	}
+	.technologyIntro {
+		padding-bottom: 30px;
+	}
+	.cltime {
+		font-size: 24px;
+	}
+	.cllist {
+		padding: 0 30px;
+		width: 70%;
+	}
+	.cetxt {
+		font-size: 14px;
+	}
+	.clpic {
+		width: 30%;
+	}
+	.jctxt {
+		font-size: 14px;
+		max-height: 42px;
+	}
+	.jicont {
+		padding: 10px 0;
+	}
+	.ju2list li {
+		margin: 15px 0 0 2%;
+	}
+	.aw8-list li {
+		display: block;
+		margin: 30px 0 0 0;
+	}
+	.al8-cricle {
+		margin: 0 auto;
+	}
+	.aw8-list {
+		margin-top: 0;
+	}
+	.cl-txt1 {
+		font-size: 20px;
+	}
+	.cl-txt2 {
+		font-size: 20px;
+		padding-bottom: 10px;
+	}
+	.cl-txt3 {
+		font-size: 18px;
+		margin-top: 10px;
+	}
+	.cl-txt2:before {
+		height: 2px;
+	}
+	.cl-mt {
+		margin-top: 30px;
+	}
+	.mdicon {
+		width: 20px;
+	}
+	.ablitem .aicont,
+	.abritem .aicont {
+		width: 90%;
+		padding: 0 5%;
+	}
+}
+
+@media screen and (max-width: 780px) {}
+
+@media screen and (max-width: 680px) {
+	.dlw-time {
+		width: 15%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.jlicon {
+		font-size: 38px;
+	}
+	.ibpic {
+		height: 200px;
+	}
+	.icicon i {
+		font-size: 40px;
+	}
+	.icicon {
+		width: 55px;
+		height: 55px;
+		line-height: 55px;
+	}
+	.ibitem:hover .icicon {
+		width: 55px;
+		height: 55px;
+		line-height: 55px;
+	}
+	.icdesc {
+		font-size: 20px;
+	}
+	.altxt2 {
+		width: auto;
+		font-size: 20px;
+		height: 30px;
+	}
+	.altxt3 {
+		margin-top: 15px;
+		font-size: 15px;
+		max-height: 66px;
+	}
+	.almore {
+		width: 115px;
+	}
+	.arnum {
+		font-size: 30px;
+	}
+	.searchResult {
+		padding: 30px 0;
+	}
+	.srbox {
+		margin: 20px auto 0;
+		padding: 0 10px 10px 10px;
+	}
+	.srtitle {
+		font-size: 20px;
+	}
+	.srjg {
+		font-size: 14px;
+		width: 90%;
+		margin: 20px auto 0;
+	}
+	.srbox input {
+		font-size: 14px;
+	}
+	.srbox a i {
+		font-size: 22px;
+	}
+	.srList {
+		padding: 40px 0 60px 0;
+	}
+	.sltitle {
+		font-size: 18px;
+	}
+	.srList li {
+		padding: 15px 0;
+	}
+	.icl {
+		width: 100%;
+	}
+	.itc {
+		font-size: 20px;
+	}
+	.itl,
+	.itr {
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+	}
+	.itc {
+		line-height: 2;
+	}
+	.itl i,
+	.itr i {
+		font-size: 12px;
+	}
+	.insidesPic img {
+		position: relative;
+		left: 50%;
+		width: auto;
+		height: 200px;
+		margin-left: -425.5px;
+	}
+	.insidesTitle {
+		margin: 0 auto 30px;
+	}
+	.ainame,
+	.aititle {
+		font-size: 18px;
+	}
+	.ainame font,
+	.ainame {
+		letter-spacing: 4px;
+	}
+	.ainame:before {
+		height: 60px;
+	}
+	.aiparagraph {
+		font-size: 14px;
+	}
+	.aidata {
+		margin: 40px 0 0 0;
+	}
+	.aidata li {
+		width: 142px;
+	}
+	.adnum {
+		font-size: 28px;
+		margin-top: 45px;
+	}
+	.adtxt,
+	.adnum>.unitcom,
+	.aboutIntro .aidata li:nth-child(2) .unitcom {
+		font-size: 12px;
+	}
+	.aidata li {
+		width: 142px;
+		height: 165px;
+	}
+	.actit {
+		font-size: 18px;
+	}
+	.lbright li {
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	.leaderBot {
+		padding: 20px;
+	}
+	.lltop {
+		margin-top: 5px;
+	}
+	.lbright {
+		margin-top: 15px;
+	}
+	.lpost {
+		font-size: 16px;
+	}
+	.ldetail p {
+		line-height: 1.8;
+	}
+	.ncdesc {
+		font-size: 14px;
+		height: 42px;
+	}
+	.newsTab .nt {
+		font-size: 18px;
+		padding: 0 10px 5px 10px;
+		line-height: 1.8;
+	}
+	.newsTab {
+		margin-top: 40px;
+	}
+	.nltxt1 {
+		font-size: 16px;
+		max-height: 24px;
+	}
+	.nltxt2 {
+		margin-top: 10px;
+	}
+	.contactway {
+		padding: 40px 0;
+	}
+	.ctadr {
+		font-size: 15px;
+	}
+	.ctphone a {
+		display: block;
+		margin-top: 10px;
+	}
+	.ctphone {
+		margin-top: 20px;
+	}
+	.ctname {
+		font-size: 18px;
+		line-height: 1.5;
+	}
+	.maps {
+		height: 220px;
+	}
+	.ndy {
+		display: none;
+	}
+	.ndcont {
+		margin: 40px 0;
+		font-size: 15px;
+	}
+	.nttxt1 {
+		font-size: 18px;
+	}
+	.ndtitle {
+		padding: 30px 0;
+	}
+	.pttable td {
+		font-size: 12px;
+	}
+	.pttable {
+		width: 640px;
+		overflow-x: scroll;
+	}
+	.tqBanner .slick-arrow i {
+		font-size: 25px;
+	}
+	.tbitem {
+		margin: 0;
+	}
+	.joinusBanner img {
+		position: relative;
+		left: 50%;
+		width: auto;
+		height: 200px;
+		margin-left: -351px;
+	}
+	.jucList li {
+		width: 150px;
+		height: 150px;
+		margin: 10px 5px 0 5px;
+	}
+	.jucWords {
+		font-size: 14px;
+	}
+	.rtn {
+		display: none;
+	}
+	.recruitTable {
+		margin-top: 10px;
+	}
+	.recruitTable td {
+		padding: 10px 15px;
+	}
+	.recruitTable thead {
+		font-size: 14px;
+	}
+	.recruitTable tbody {
+		font-size: 13px;
+	}
+	.about5Wrap li {
+		width: 98%;
+	}
+	.atctxt2 {
+		font-size: 16px;
+		height: 48px;
+	}
+	.atctxt3 {
+		margin-top: 5px;
+	}
+	.sc2tit {
+		font-size: 16px;
+	}
+	.sc2txt1 {
+		font-size: 14px;
+	}
+	.service1List li,
+	.ablitem,
+	.abritem {
+		margin-top: 15px;
+	}
+	.st2 td {
+		font-size: 12px;
+	}
+	.stBanner {
+		padding: 0;
+		margin: 40px 0 60px 0;
+	}
+	.stBanner .slick-arrow {
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+	}
+	.stBanner .slick-arrow i {
+		font-size: 20px;
+	}
+	.st3 td {
+		padding: 15px 0;
+	}
+	.st3 td {
+		font-size: 14px;
+	}
+	.shn {
+		display: none;
+	}
+	.shs {
+		width: 33.333%;
+	}
+	.service3 {
+		padding-bottom: 60px;
+	}
+	.service4List li {
+		width: 98%;
+	}
+	.si4cont {
+		font-size: 15px;
+	}
+	.nfw-pic {
+		width: 90%;
+		height: auto;
+	}
+	.nfw-txt1 {
+		font-size: 20px;
+	}
+	.linkbtn {
+		margin-top: 40px;
+	}
+	.linkbtn a {
+		display: block;
+		margin: 20px auto 0;
+	}
+	.pt-ts {
+		display: block;
+	}
+	.nttitle {
+		font-size: 20px;
+	}
+	.newsTitle {
+		padding-bottom: 10px;
+	}
+	.leaderPic {
+		float: none;
+		width: 244px;
+		height: 244px;
+		overflow: hidden;
+		margin: 0 auto;
+	}
+	.leaderCont {
+		float: none;
+		width: 100%;
+		margin-top: 15px;
+	}
+	.leaderList li {
+		margin: 20px 0 0 2%;
+	}
+	.llabel,
+	.lpost {
+		text-align: center;
+	}
+	.clbt {
+		padding: 20px 0;
+	}
+	.cltime {
+		font-size: 22px;
+	}
+	.clpic {
+		width: 40%;
+	}
+	.cllist {
+		width: 60%;
+		padding: 0 20px;
+	}
+	.ju2list li {
+		width: 48%;
+	}
+	.fbcopyright span {
+		float: none;
+		display: initial;
+	}
+	.fbcopyright a {
+		float: none;
+		margin-top: 0;
+		width: 30px;
+		display: inline-block;
+	}
+	.fbcopyright a img {
+		display: block;
+		width: 100%;
+	}
+	.al8-txt3 {
+		margin-top: 10px;
+	}
+	.cmk {
+		font-size: 14px;
+	}
+	.a3-scjd li {
+		width: 98%;
+	}
+	.flway {
+		margin-top: 5px;
+	}
+	.fltitle {
+		font-size: 14px;
+	}
+	.flway a {
+		line-height: 1.5;
+	}
+	.footerWrap {
+		padding: 10px 0 20px 0;
+	}
+	.bfs-select-xs {
+		padding-left: 10px;
+	}
+	.bfs-select {
+		font-size: 12px;
+	}
+	.bfs-select {
+		height: 38px;
+		line-height: 38px;
+	}
+	.bfs-select-xs {
+		height: 38px;
+	}
+	.fi-gz {
+		margin-top: 15px;
+	}
+	.gz-c {
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+	}
+	.gz-c i {
+		font-size: 18px;
+	}
+	.service1List li {
+		padding: 30px 0;
+		background-position: center center;
+	}
+	.aceng {
+		font-size: 18px;
+		padding-bottom: 10px;
+	}
+	.actxt2 {
+		margin-top: 10px;
+		font-size: 14px;
+	}
+	.actxt2 p {
+		margin-top: 0;
+	}
+	.aceng:before {
+		height: 1px;
+	}
+	.newsfrist {
+		padding-bottom: 20px;
+	}
+	.newsfrist .cmk {
+		width: 45px;
+		height: 54px;
+		line-height: 54px;
+	}
+	.newsfrist .cmk:before {
+		top: 26px;
+	}
+	.newsfrist .almore {
+		margin-top: 10px;
+		margin-right: 0;
+	}
+	.atleft .almore {
+		margin-right: 0;
+	}
+	.insidesTitle {
+		width: 100%;
+	}
+	.newsTab .nt:after,
+	.newsTab .nt:after {
+		height: 3px;
+	}
+	.a3-scjd {
+		padding-bottom: 40px;
+	}
+	.cl-txt4 {
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.dlw-time {
+		width: 18%;
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 481px) {
+	.searchbox {
+		width: 70%;
+	}
+	.arnum {
+		font-size: 24px;
+	}
+	.adnum {
+		font-size: 24px;
+		margin-top: 40px;
+	}
+	.aidata li {
+		width: 122px;
+		height: 145px;
+		margin: 15px 15px 0 15px;
+	}
+	.sitit {
+		font-size: 16px;
+	}
+	.sitxt {
+		font-size: 13px;
+	}
+	.clpic {
+		float: none;
+		width: 100%;
+	}
+	.cllist {
+		float: none;
+		width: 100%;
+		padding: 10px 0;
+	}
+	.ju2list li {
+		width: 98%;
+	}
+	.mdicon i {
+		font-size: 15px;
+	}
+	.al8-cricle {
+		width: 170px;
+		height: 170px;
+	}
+}
+
+@media screen and (max-width: 421px) {
+	.jucList li {
+		width: 135px;
+		height: 135px;
+		margin: 10px 3px 0 3px;
+	}
+	.jltxt {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 375px) {}
+
+@media screen and (max-width: 350px) {}
