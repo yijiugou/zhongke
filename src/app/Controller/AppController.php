@@ -35,8 +35,23 @@ class AppController extends Controller {
 
 
 	public $device_type = 'pc';
-
-
+	function __construct($request = null, $response = null){
+		parent::__construct($request, $response);
+		$this->siteInfo();
+	}
+	public function siteInfo(){
+		$params = [
+			'site_name'=>'中科赛亚',
+			'keywords'=>''
+		];
+		$params['menus'] = [
+			['name'=>'细胞工程','url'=>'','action'=>''],
+			['name'=>'基因药物','url'=>'','action'=>''],
+			['name'=>'医疗器械','url'=>'','action'=>''],
+			['name'=>'技术服务','url'=>'','action'=>'']
+		];
+		$this->setpm($params);
+	}
 	public function checkRetailer(){
 		if ($this->Session->read('user_login') != 1 || $this->Session->read('user_type') != 'retailer'){
 			$this->redirect('/login/retailer');
