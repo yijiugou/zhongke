@@ -34,31 +34,7 @@ class IndexController  extends AppController {
 	public $uses = array('Articles','Tuijian','Category','Ad');
 	public $layout = "pc_new";
 	public function index() {
-		$params['action_name'] = "消费评论 - 酒类融媒体";
-		$params['id'] = isset($_GET['id']) ? $_GET['id'] : 1;
-		$params['portray'] = $this->Articles->getArticlesList(19, 1, 5, 'pubdate');
-		$params['jiutan'] = $this->Articles->getArticlesList(18, 1, 2, 'pubdate');
-		$params['xfgc'] = $this->Articles->getArticlesList(17, 1, 4, 'pubdate');
-
 		
-		$params['tuijian'] = $this->Tuijian->getArticlesList(1, 20, 'pubdate');
-		$params['adlist'] = $this->Ad->getArticlesList(1, 4, 'pubdate');
-		$params['alllist'] = $this->Articles->getArtAllList(1, 10, 'pubdate');
-		
-		$params['cates'] = $this->Category->getIndexIdList();
-
-		$params['back_url'] = false;
-		$params['is_index'] = true;
-		empty($params['shou']['pic_01'])?0:$params['shou']['pics'][] = $params['shou']['pic_01'];
-		empty($params['shou']['pic_02'])?0:$params['shou']['pics'][] = $params['shou']['pic_02'];
-		empty($params['shou']['pic_03'])?0:$params['shou']['pics'][] = $params['shou']['pic_03'];
-		empty($params['shou']['pic_04'])?0:$params['shou']['pics'][] = $params['shou']['pic_04'];
-		empty($params['shou']['pic_05'])?0:$params['shou']['pics'][] = $params['shou']['pic_05'];
-		$this->setpm($params);
-		// if ($this->device_type != "pc" ) {
-		// 	$this->layout = "mobi_view";
-		// 	return $this->render('index_m');
-		// }
 	}
     public function more() {
         $pagenow=isset($_GET['p'])?intval($_GET['p']):1;
