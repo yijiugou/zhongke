@@ -126,56 +126,7 @@ class AppController extends Controller {
     	global $NET_SET;
 		$this->set("NET_SET" , $NET_SET);
 
-		$b_name = "";
-		switch ($params['name']) {
-			case 'company':
-			$b_name = '厂家信息管理';
-			break;
-			case 'mngcompany':
-			$b_name = '厂家信息管理';
-			break;
-			case 'product':
-			$b_name = "产品管理";
-			break;
-			case 'retailer':
-			$b_name = "零售商管理";
-			break;
-			case 'mngretailer':
-			$b_name = "零售商管理";
-			break;
-			case 'mngcustomer':
-			$b_name = "消费者管理";
-			break;
-			case 'prize':
-			$b_name = "红包管理";
-			break;
-			case 'mngprize':
-			$b_name = "红包管理";
-			break;
-			case 'sell':
-			$b_name = "销售返点管理";
-			break;
-			case 'mngsell':
-			$b_name = "销售返点管理";
-			break;
-			case 'ad':
-			$b_name = "图文广告管理";
-			break;
-			case 'account':
-			$b_name = "账户余额管理";
-			break;
-			case 'reretailer':
-			$b_name = "零售商管理";
-			break;
-			case 'oa':
-			$b_name = "进销存管理";
-			break;
-		}
 
-		//$this->checkAuth();
-
-
-		$params['b_name'] = $b_name;
 		$this->setpm($params);
 	}
 
@@ -235,4 +186,3 @@ class AppController extends Controller {
 	 return $type;
 	}
 }
-

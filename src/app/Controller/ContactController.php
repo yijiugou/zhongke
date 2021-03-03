@@ -9,7 +9,7 @@
  */
 App::uses('Controller','Controller');
 App::uses('ArticleController','Controller');
-class PersonController extends AppController{
+class ContactController extends AppController{
     public $layout = "pc_new";
     public $uses = array('Job');
 

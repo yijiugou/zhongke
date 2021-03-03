@@ -27,10 +27,10 @@
  * to use (in this case, /app/View/Pages/home.ctp)...
  */
 	Router::connect('/', array('controller' => 'index', 'action' => 'index'));
-	Router::connect('/about', array('controller' => 'Zksy', 'action' => 'about'));
-	Router::connect('/contact', array('controller' => 'Zksy', 'action' => 'contact'));
-	Router::connect('/news', array('controller' => 'Zksy', 'action' => 'news'));
-	Router::connect('/detail', array('controller' => 'Zksy', 'action' => 'detail'));
+	// Router::connect('/about', array('controller' => 'Zksy', 'action' => 'about'));
+	// Router::connect('/contact', array('controller' => 'Zksy', 'action' => 'contact'));
+	// Router::connect('/news', array('controller' => 'Zksy', 'action' => 'news'));
+	// Router::connect('/detail', array('controller' => 'Zksy', 'action' => 'detail'));
 /**
  * ...and connect the rest of 'Pages' controller's urls.
  */
